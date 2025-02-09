@@ -1,0 +1,35 @@
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #000;
+padding: 1em; /* Hi, how's your day going? */
+}
+
+body {
+  background-image: url(".../images/poe-portrait.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-color: lightblue;
+}
+
+table, th, td {
+    background-color: red; /* Lets hope this works */
+    opacity: 0.6
+}
+
+/*  For some reason I kept interpretting "three different styles" as in making three different sets of styles. */
+
+p {
+    font-size: medium
+}
+
+
+#testheader {color: blue}
+/* Gonna try this and a class header */
+
+.secondtestheader {color: orange}
